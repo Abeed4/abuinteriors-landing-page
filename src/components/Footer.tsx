@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
@@ -118,9 +118,11 @@ const Footer = () => {
         </div>
         
         <div className="py-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+          <a href="https://abumatics.com/" target="_blank" rel="noopener noreferrer">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
             © {currentYear} Abumatics. All rights reserved.
           </p>
+          </a>
           <div className="flex items-center space-x-6 text-gray-500 text-sm">
             <a href="/PrivacyPolicy" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="/TermsOfService" className="hover:text-white transition-colors">Terms of Service</a>
